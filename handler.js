@@ -211,7 +211,8 @@ async function getLRSData(more) {
                 'Cache-Control': 'no-cache',
                 'Authorization': process.env.LRS_AUTH,
                 'Accept': 'application/json',
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'X-Experience-API-Version': '1.0.0'
             }
         };
         const req = https.request(options, (res) => {
