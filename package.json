@@ -13,6 +13,6 @@
     "adl-xapiwrapper": "^0.2.3",
     "aws-sdk": "^2.314.0",
     "https": "^1.0.0",
-    "mongoose": "^5.2.14"
+    "mongoose": "^5.13.17"
   }
 }
